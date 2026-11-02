@@ -1,0 +1,13 @@
+[patch]
+id = "renderer-d3d11"
+name = "D3D11"
+version = "0.9.2"
+author = "J"
+description = "Native DirectDraw compatibility layer"
+
+requires = []
+conflicts = []
+
+[patch.supported_versions]
+expanding_fronts_1_5_5 = "D64E7F0ECC546C3BD833C5C6A7BC97B75EE74940D89B1CB22349B0ACE0F3FC58"
+clone_campaigns_1_1 = "BBC13B1FA05CAFE824AB023E5AB4409C01CED576A071EB0E4EB93DA4BE748E28"
