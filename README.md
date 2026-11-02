@@ -2,7 +2,7 @@
 
 Ported [KPM](https://github.com/LaneDibello/Kotor-Patch-Manager) launcher and runtime patch framework for *Star Wars: Galactic Battlegrounds*.
 
-The launcher prefers `battlegrounds_x2.exe` from Expanding Fronts 1.5.5:
+The launcher prefers `battlegrounds_x2.exe` from [Expanding Fronts 1.5.5](https://www.moddb.com/mods/star-wars-galactic-battlegrounds-expanding-fronts):
 
 ```text
 SHA-256 D64E7F0ECC546C3BD833C5C6A7BC97B75EE74940D89B1CB22349B0ACE0F3FC58
