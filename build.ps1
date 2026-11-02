@@ -264,6 +264,9 @@ if ($LASTEXITCODE -ne 0) {
     throw "The launcher publish failed."
 }
 
+Copy-Item -LiteralPath (Join-Path $projectRoot "LICENSE-KPM.txt") `
+    -Destination (Join-Path $dist "LICENSE-KPM.txt")
+
 $patchesDirectory = Join-Path $dist "patches"
 New-Item -ItemType Directory -Path $patchesDirectory -Force | Out-Null
 
